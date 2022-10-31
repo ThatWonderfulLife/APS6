@@ -1,12 +1,3 @@
 {
-    "type": "service_account",
-    "project_id": "fruitapi-367214",
-    "private_key_id": "12b46dac6b2a26065170bedc63752fc6a1e5e826",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+c3KTRk+EFPY6\nWJRyiROvkgxN1cSGnbtkftnbdm/3lBgj/y4aV/YZSO2S/2uoZtwxeBQ4VGLu4n8C\niKuRBhy9NycWFULiEQadCbylEPmqpQnCWlolS9I29Xpq0DDl8syK/d2xV3B5t/qo\nDsB40P7SSaEb+oCdWjlY6T5cRKSgItlzOonDxkkWuwEep1zAAmLLMR/jSndxNuSD\njmjL6ygEpxE7SQYYDC1aPRCoTEQwg8uWqphkZo794ljGdpFwsneejyh9JaojR3IR\nEH7jWFhtoMFBgAQL5rrSrq9b6Dm9dfKLffh6UpbhXbUb8rhmITAv9nB3yA6tgfo3\nc1BpzxP9AgMBAAECggEALEk9OdjuMZkMProNXurYLInqGYldZy4zfqVutHVAiRIj\nYO98QXz1yaBnOjjxyFmO12QEU6rvzHvXq/eq6ZDByxARozVzdY0e/BJhDwM5A0DY\nWZzX/Hc6nTQM8NyTmk0Q2js5O31JNsyc2UqA4Dc9IhokABUKpkxuLGokaaE+pMu9\n9HK1ziYmvatsO7b7wj3H+VazKmoPaCGlL4tPBnTyUC+UjULkweyrUMD66l8s9mY2\n6lH28PD14U4NAVZ3k46bNPXDXQpHYlCC4q1dBDUj7q83XzzVGbJzVWF3faeQA+jO\nCjI2O/uIo6I2cmsKoRoPH5KXClh5AJoccq+l3pGGsQKBgQD/5576gd1aazec/fc9\nULL/CfBs5mGTqXMWbokq9FB1tx3jXZAQ02B2lIZntvp3bDBeAo1j9MHndBC3D7KD\nwbTBk8MWZySUKyD6xKdOMLzMU4wSTNhj76cGbSKWgvKZyovxN9gDtYkVdh9OIhsx\nbqieRcptiUzc/YpgBV7Qk/gliQKBgQC+hZdOKnOa+YXC5vknjZayCsSq8IaFYvko\n8z0nb9/Tc9AbTE6/4sVG9GiCvLA+WS6xZLGulEhB79ZHl5R5KN6A6FXr9O8hKffD\nUROh6N9ToOCh6ZbuNLK5INYnuphqbfLvNainSFb2l/0qAx1mSpHbNEQsk3Vms7hB\nKKm17lvR1QKBgQDr45slOa5MWcbS3TwZdhj5hTTtfVP25FzlEZE5WioMyHYxjp5t\nFBu4UuKuGfo5OS5AikPBHu3ap598z2hzkYxIYCeVsBAE0Ni+r6W1KrHt+xmECPfy\n7wdcoh8e9KgiYZWsDhj+Gkm50b+7qy6721BtTNHzNHv4vXHfXzPuOmekWQKBgBCH\nmqcHe9w4ReixDXDnEeoEkSebkrBD9AYfhHDFfg/kfmu/5R002ZTcY6zkHg5qwmhV\nqizRZKuD2X2AozsX1qYsgjfkmlKwR3TEtgVYJPgmfxbNI3ErVU5GkQ4FXG/vdiJW\n73kEB7eBXE+m0YgsdBcmo7uSV58/fH76vi6wrXq5AoGAPI262qH0JxmeaYzw/zza\n9HjBcLUOr3q0EDg2C51lJS+YHWrAdFOPFb7AMIfYMZu/4kV2HBvYbAox0hgZFgXC\nX9lGN3GO8L0qt2t0ttEFjhtExT1rASMSuSCNMHEPa6vJM3A20p/hVT8eKAqvL/xi\na7pMlSQifSjpAly/p0qvyvY=\n-----END PRIVATE KEY-----\n",
-    "client_email": "thatwonderfullife@fruitapi-367214.iam.gserviceaccount.com",
-    "client_id": "109938402855270072711",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/thatwonderfullife%40fruitapi-367214.iam.gserviceaccount.com"
+    
 }
