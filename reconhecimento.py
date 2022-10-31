@@ -9,29 +9,29 @@ from google.cloud import vision_v1p3beta1 as vision
 #Chave para usar o serviços do Google Vision.
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'chave_cliente.json'
 
-#ATENÇÃO O CAMINHO DA FOTO DEVE SER MUDADO DE ACORDO COM A FOTO QUE O USUARIO QUEIRA UTILIZAR.
-path = "C:/Users/ThatWonderfulLife/Desktop/APS6/"
+# pega o path atual do arquivo 'reconhecimento.py'
+path_incial = os.path.dirname(__file__)
 
 tipo_comida = 'Fruta'
 
 
 #Carrega os nomes das frutas que estão no arquivo Fruta.dict e retorna uma lista com os nomes.
 def carregar_nome_fruta (tipo_comida):
-    nomes = [line.rstrip('\n').lower() for line in open(tipo_comida + '.dict')]
+    nomes = [line.rstrip('\n').lower() for line in open(f"{path_incial}/{tipo_comida}.dict")]
     return nomes
 
-def reconhecer(path, lista_frutas):
+def reconhecer(path_incial, lista_frutas):
     t_inicial = datetime.now()
     #Lê img do path
-    img = cv.imread(path)
+    img = cv.imread(f'{path_incial}/Fruta.jpg')
     #define altura e largura da imagem
     height,width = img.shape[:2]
     #deixa a imagem menor
     img = cv.resize(img, (800, int( (height * 800) / width) ) )
     #salva a imagem temporaria no path dado
-    cv.imwrite(path + "cortada.jpg", img)
+    cv.imwrite(path_incial + "cortada.jpg", img)
     #definindo onde q fica a foto cortada
-    path_foto_cortada = (f"{path}cortada.jpg")
+    path_foto_cortada = (f"{path_incial}\\cortada.jpg")
     #Puxa cliente do google Vision
     cliente = vision.ImageAnnotatorClient()
 
@@ -62,6 +62,6 @@ lista_treco = carregar_nome_fruta(tipo_comida)
 #mostra o resultado
 print(lista_treco)
 #Salva ele
-path = (f'{path}laranja.jpg')
+path = (f'{path_incial}laranja.jpg')
 #reconhece fruta
 reconhecer(path,lista_treco)
