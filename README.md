@@ -24,6 +24,8 @@ João vitor Fernandes de Lima | F314618
 Lucca Pereira Altomani | N6819E0
 Maurício Vitaliano Dolacio | N604AH8
 Pedro Marques Arena | N618AE4
+João Vitor Mine Nascimento | N5816B9
+
 ---
 
 CC6P/Q18
