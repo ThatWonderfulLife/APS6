@@ -1,4 +1,8 @@
-import json, requests
+import json, requests, os
+import reconhecimento as rec
+path_incial = os.path.dirname(__file__)
+tipo_comida = 'Fruta'
+
 
 def Consult(food):
     #função MAIN                
@@ -38,3 +42,12 @@ def Consult(food):
         "VitC": ConsultJson('VITC')
         }                         
     return dict
+
+lista_treco = rec.carregar_nome_fruta(tipo_comida) #inicia o algoritimo
+print(lista_treco) #mostra o resultado
+path = path_incial #Salva ele
+
+food = rec.reconhecer(path,lista_treco) #reconhece fruta
+print(food)
+
+print(Consult(food))

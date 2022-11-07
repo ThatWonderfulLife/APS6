@@ -46,16 +46,17 @@ def reconhecer(path_incial, lista_frutas):
         pontos = round(label.score,2)
         
         print(f"label -> {descricao} pontos -> {pontos}") #mostra resultados que vieram
-        
         if (descricao in lista_frutas): #se o nome de um dos resultados tiver na lista das frutas ele coloca 1 texto indicando qual fruta é e faz 1 quadrado em volta dela tb. Abre a imagem pra mostrar como ficou
             cv.putText(img,descricao.upper(),(300,150),cv.FONT_HERSHEY_TRIPLEX,1,(50,50,200),2)
             cv.imshow("Fruta",img)
-            cv.waitKey(0)
-
+            #cv.waitKey(0)
+            return descricao
             break #ESSE BREAK SERVE PRA ELE SÒ DAR PRINT NA PRIMEIRA FRUTA
 
 lista_treco = carregar_nome_fruta(tipo_comida) #inicia o algoritimo
 print(lista_treco) #mostra o resultado
 path = path_incial #Salva ele
 
-reconhecer(path,lista_treco) #reconhece fruta
+food = reconhecer(path,lista_treco) #reconhece fruta
+print(food)
+
