@@ -46,4 +46,6 @@ lista_treco = rec.carregar_nome_fruta(tipo_comida) #inicia o algoritimo
 path = path_incial #Salva ele
 food = rec.reconhecer(path,lista_treco) #reconhece fruta
 
-print(Consult(food))
+dicionario = Consult(food)
+
+print(f"Informações da Fruta - 100g\nNome: {dicionario['Food']}\nCalorias: {dicionario['Kcal']}\nCaboidratos: {dicionario['Carb']}\nProteinas: {dicionario['Protein']}\nGorduras Totais: {dicionario['TotalFat']}\nGorduras Saturadas: {dicionario['FatSAT']}\nSódio: {dicionario['Sodium']}\nVitamina A: {dicionario['VitA']}\nVitamina B6: {dicionario['VitB6']}\nVitamina C: {dicionario['VitC']}")
